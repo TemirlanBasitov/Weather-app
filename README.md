@@ -5,9 +5,9 @@ Weather information is taking from AccuWeather API. App craeted by using asynchr
 deatils, then on the  second one gets location weather condifiton by using location deatils.
 Used technologies:
 -HTML
- -CSS
- -JavaScript
- -Bootstrap
- -AccuWeather API
+-CSS
+-JavaScript
+-Bootstrap
+-AccuWeather API
  
  2022 Temirlan Basitob
