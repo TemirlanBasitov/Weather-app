@@ -41,14 +41,15 @@ const updateUI =(data)=> {
                     <span>&deg;C</span>
                 </div>
             </div>`
+    // making card invisible in the beginning while city name not entered        
     if (card.classList.contains('d-none')){
         card.classList.remove('d-none')
     };
-
+    // checking day time, and settings attibute 
     let timeSrc = null;
     weather.IsDayTime ? timeSrc = './src/day.svg': timeSrc = './src/night.svg';;
     time.setAttribute('src', timeSrc);
-
+    // cheking weather condition and setting icon 
     const weatherIconNumber = weather.WeatherIcon;
     icon.setAttribute('src',`./src/icons/${weatherIconNumber}.svg`);
 };
