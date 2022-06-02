@@ -4,10 +4,11 @@ it displays  weather condition in details inside a card, including temperature d
 Weather information is taking from AccuWeather API. App craeted by using asynchronous JavaScript.App does 2 GET request to API. First gets city or location
 deatils, then on the  second one gets location weather condifiton by using location deatils.
 Used technologies:
-  -HTML
-  -CSS
-  -JavaScript
-  -Bootstrap
-  -AccuWeather API
+ - HTML
+ - CSS
+ - JavaScript
+ - Bootstrap
+ - AccuWeather API
  
- 2022 Temirlan Basitob
+Temirlan Basitov
+2022 
